@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         myRecycleView = (RecyclerView) findViewById(R.id.recycle_view);
-        StaggeredGridLayoutManager layoutManager=new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL);
+        StaggeredGridLayoutManager layoutManager=new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.HORIZONTAL);
 //        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         myRecycleView.setLayoutManager(layoutManager);
         postAsynHttp();
